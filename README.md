@@ -1,4 +1,4 @@
-# Amazon Sales & Reviews Analytics - Projeto de Portfólio
+# Amazon Sales Analytics - Projeto de Portfólio
 
 ![Status](https://img.shields.io/badge/Status-Concluído-brightgreen) ![Python](https://img.shields.io/badge/Python-3.11-blue) ![Power%20BI](https://img.shields.io/badge/Power%20BI-Integrado-orange) ![Moeda](https://img.shields.io/badge/Moeda-Real%20Brasileiro-green)
 
@@ -6,7 +6,7 @@
 
 ## 1. Título do Projeto
 
-**Amazon Sales & Reviews Analytics: Análise Exploratória de 1.465 Produtos com Insights Estratégicos para Otimização de E-commerce**
+**Amazon Sales Analytics: Análise Exploratória de 1.465 Produtos com Insights Estratégicos para Otimização de E-commerce**.
 
 Palavras-chave: E-commerce Analytics, Data Analysis, Python, Power BI, Business Intelligence, Data Visualization, Real Brasileiro
 
@@ -51,7 +51,7 @@ O retorno financeiro esperado inclui: aumento de 15-20% no faturamento através 
 A solução foi desenvolvida seguindo uma metodologia de **Analytics em 5 Etapas**, garantindo rigor científico e entrega de valor em cada fase:
 
 ### Etapa 1: Análise da Estrutura e Qualidade dos Dados
-Realizamos uma auditoria completa da base de dados, identificando valores ausentes, duplicatas e inconsistências. A qualidade dos dados foi excelente, com apenas 0.14% de perda (2 registros sem rating_count) e zero duplicatas.
+Realizei uma auditoria completa da base de dados, identificando valores ausentes, duplicatas e inconsistências. A qualidade dos dados foi excelente, com apenas 0.14% de perda (2 registros sem rating_count) e zero duplicatas.
 
 ### Etapa 2: Definição de Hipóteses de Negócio
 Formulamos 5 hipóteses testáveis baseadas em conhecimento de e-commerce:
@@ -78,11 +78,6 @@ Desenvolvemos um dashboard web interativo usando React + Recharts, permitindo ex
 |-----------|-----------|----------|
 | **Linguagem de Programação** | Python 3.11 | Processamento e análise de dados |
 | **Bibliotecas Python** | Pandas, NumPy | Manipulação e transformação de dados |
-| **Visualização (Python)** | Matplotlib, Seaborn | Gráficos estáticos para EDA |
-| **Frontend** | React 19, TypeScript | Interface interativa do dashboard |
-| **Visualização (Web)** | Recharts | Gráficos interativos no dashboard |
-| **Estilo** | Tailwind CSS 4 | Design responsivo e moderno |
-| **Componentes UI** | shadcn/ui | Componentes reutilizáveis |
 | **BI** | Power BI Desktop | Dashboard profissional para stakeholders |
 | **Controle de Versão** | Git, GitHub | Versionamento e colaboração |
 | **Documentação** | Markdown | Documentação técnica e executiva |
@@ -93,19 +88,19 @@ Desenvolvemos um dashboard web interativo usando React + Recharts, permitindo ex
 ## 7. Etapas do Projeto
 
 ### Etapa 1: Análise da Estrutura da Base de Dados
-Realizamos uma auditoria completa da qualidade dos dados, incluindo verificação de tipos de dados, valores ausentes, duplicatas e outliers. Identificamos que a base possui 1.465 registros com 16 colunas, sendo todas as colunas numéricas carregadas como strings devido a símbolos especiais (₹, %, ,).
+Realizei uma auditoria completa da qualidade dos dados, incluindo verificação de tipos de dados, valores ausentes, duplicatas e outliers. Identificamos que a base possui 1.465 registros com 16 colunas, sendo todas as colunas numéricas carregadas como strings devido a símbolos especiais (₹, %, ,).
 
 ### Etapa 2: Definição de Hipóteses de Negócio
-Formulamos 5 hipóteses testáveis baseadas em conhecimento de e-commerce e comportamento do consumidor. Essas hipóteses guiaram toda a análise exploratória.
+Formulei 5 hipóteses testáveis baseadas em conhecimento de e-commerce e comportamento do consumidor. Essas hipóteses guiaram toda a análise exploratória.
 
 ### Etapa 3: Análise Exploratória dos Dados (EDA)
-Utilizamos Python para limpar os dados, remover símbolos especiais e converter tipos. Convertemos valores de Rupee Indiano para Real Brasileiro usando fator de 0,052. Geramos visualizações de distribuições, correlações e relações entre variáveis.
+Utilizei Python para limpar os dados, remover símbolos especiais e converter tipos. Convertemos valores de Rupee Indiano para Real Brasileiro usando fator de 0,052 (cotação do dia). Gerei visualizações de distribuições, correlações e relações entre variáveis.
 
 ### Etapa 4: Análise de Resultados e Geração de Insights
-Consolidamos os achados em 5 insights estratégicos acionáveis, cada um com recomendações específicas para gestores de produto e marketing.
+Consolidei os achados em 5 insights estratégicos acionáveis, cada um com recomendações específicas para gestores de produto e marketing.
 
 ### Etapa 5: Criação de Dashboard Interativo
-Desenvolvemos um dashboard web responsivo usando React + Recharts, exibindo KPIs, gráficos interativos e filtros para exploração de dados com valores em Real Brasileiro.
+Desenvolvi um dashboard responsivo usando Power BI, exibindo KPIs, gráficos interativos e filtros para exploração de dados com valores em **Real Brasileiro (R$)**.
 
 ---
 
@@ -117,7 +112,7 @@ A categoria **Electronics** representa aproximadamente **70% do faturamento pote
 **Recomendação:** Implementar estratégias de cross-selling entre acessórios de baixo custo (R$ 10-50) e itens de alto valor (R$ 500-2.000) para aumentar o ticket médio.
 
 ### Insight 2: Descontos Agressivos Não Prejudicam Significativamente a Satisfação
-Encontramos uma correlação negativa fraca (-0.16) entre percentual de desconto e rating. Produtos com descontos até 70% mantêm ratings praticamente iguais (4,1), enquanto apenas produtos com >80% de desconto mostram uma leve queda (3,9).
+Encontrei uma correlação negativa fraca (-0.16) entre percentual de desconto e rating. Produtos com descontos até 70% mantêm ratings praticamente iguais (4,1), enquanto apenas produtos com >80% de desconto mostram uma leve queda (3,9).
 
 **Recomendação:** Descontos agressivos podem ser usados estrategicamente para aumentar volume sem comprometer a marca. Recomenda-se monitorar o sentimento das avaliações em produtos com >80% de desconto.
 
@@ -127,14 +122,14 @@ Produtos com mais de 10.000 avaliações mantêm um rating médio de 4,1, enquan
 **Recomendação:** Programas de incentivo a reviews (pequenos descontos, brindes) podem ser mais eficazes que apenas reduzir preços para atrair novos compradores.
 
 ### Insight 4: Oportunidades em Categorias Nicho
-Categorias como **Office Products** (rating 4,3) e **Musical Instruments** (rating 4,3) têm alta satisfação mas baixo volume de produtos (80 e 52 respectivamente). Essas categorias representam oportunidades de expansão com baixa competição interna.
+Categorias como **Office Products** (rating 4,3) e **Musical Instruments** (rating 4,3) têm alta satisfação, mas baixo volume de produtos (80 e 52 respectivamente). Essas categorias representam oportunidades de expansão com baixa competição interna.
 
 **Recomendação:** Expandir o catálogo nessas categorias com 50-100 novos produtos e investir em marketing direcionado.
 
 ### Insight 5: Estratégia de Preços Previsível
 A correlação quase perfeita entre preço real e preço com desconto (0,96) indica que a Amazon mantém uma política de descontos linear e previsível. Isso cria uma oportunidade para diferenciação através de "Preço Psicológico" ou pacotes.
 
-**Recomendação:** Testar preços em .99 ou .95 para aumentar conversão. Implementar bundles estratégicos (ex: TV + Acessórios) para aumentar o ticket médio.
+**Recomendação:** Testar preços em 0.99 ou 0.95 para aumentar conversão. Implementar bundles estratégicos (ex: TV + Acessórios) para aumentar o ticket médio.
 
 ---
 
@@ -154,16 +149,16 @@ A correlação quase perfeita entre preço real e preço com desconto (0,96) ind
 ### Resultados Qualitativos
 
 **Acima da Expectativa Inicial:**
-- A qualidade dos dados foi excelente (apenas 0.14% de perda)
-- A correlação entre desconto e rating foi mais fraca que esperado, permitindo estratégias agressivas de desconto
-- A importância da "prova social" foi confirmada, validando investimentos em programas de reviews
+- A qualidade dos dados foi excelente (apenas 0.14% de perda).
+- A correlação entre desconto e rating foi mais fraca que esperado, permitindo estratégias agressivas de desconto.
+- A importância da "prova social" foi confirmada, validando investimentos em programas de reviews.
 
 **Dentro da Expectativa:**
-- A dominância de Electronics foi confirmada
-- A existência de categorias nicho com alto potencial foi identificada
+- A dominância de categoria "Electronics" foi confirmada.
+- A existência de categorias nicho com alto potencial foi identificada.
 
 **Abaixo da Expectativa:**
-- Nenhum resultado significativamente abaixo das expectativas
+- Nenhum resultado significativamente abaixo das expectativas.
 
 ---
 
@@ -180,19 +175,19 @@ O dashboard interativo desenvolvido permite que gestores explorem os dados em te
 ## 11. Próximos Passos
 
 ### Curto Prazo (0-3 meses)
-1. Implementar programa de incentivo a reviews focado em produtos com <100 avaliações
-2. Otimizar estratégia de descontos em Electronics (manter entre 40-70%)
-3. Monitorar sentimento em categorias nicho (Office Products, Musical Instruments)
+1. Implementar programa de incentivo a reviews focado em produtos com <100 avaliações.
+2. Otimizar estratégia de descontos em Electronics (manter entre 40-70%).
+3. Monitorar sentimento em categorias nicho (Office Products, Musical Instruments).
 
 ### Médio Prazo (3-6 meses)
-1. Expandir catálogo em categorias de alta satisfação (adicionar 50-100 produtos)
-2. Implementar bundles estratégicos para aumentar ticket médio
-3. Testar preços psicológicos (.99, .95) em categorias piloto
+1. Expandir catálogo em categorias de alta satisfação (adicionar 50-100 produtos).
+2. Implementar bundles estratégicos para aumentar ticket médio.
+3. Testar preços psicológicos (0.99, 0.95) em categorias piloto.
 
 ### Longo Prazo (6-12 meses)
-1. Implementar Machine Learning para recomendação de preços dinâmicos
-2. Criar dashboard de monitoramento em tempo real com alertas automáticos
-3. Desenvolver programa de fidelização baseado em dados de comportamento
+1. Implementar Machine Learning para recomendação de preços dinâmicos.
+2. Criar dashboard de monitoramento em tempo real com alertas automáticos.
+3. Desenvolver programa de fidelização baseado em dados de comportamento.
 
 ---
 
@@ -200,7 +195,6 @@ O dashboard interativo desenvolvido permite que gestores explorem os dados em te
 
 ### Pré-requisitos
 - Python 3.11+
-- Node.js 18+
 - Power BI Desktop (para visualizações avançadas)
 
 ### Instalação
@@ -212,26 +206,19 @@ cd amazon-analytics
 
 # Instalar dependências Python
 pip install pandas numpy matplotlib seaborn
-
-# Instalar dependências Node.js
-npm install
 ```
 
 ### Executar Análise
 
 ```bash
 # Executar script de análise com conversão para BRL
-python amazon_analysis_portfolio_brl.py
-
-# Iniciar dashboard web
-npm run dev
+python etl_amazon_analysis.py
 ```
 
 ### Visualizar Resultados
 
 - **Dashboard Web:** Acesse http://localhost:3000
-- **Relatório Executivo:** Abra `relatorio_executivo_brl.pdf`
-- **Guia Power BI:** Consulte `guia_power_bi_brl.md`
+- **Relatório Executivo:** Abra `Relatorio_Executivo_brl.pdf`
 
 ---
 
@@ -240,14 +227,10 @@ npm run dev
 | Arquivo | Descrição |
 |---------|-----------|
 | `amazon.csv` | Base de dados original (1.465 produtos em INR) |
-| `new_amazon_brl.csv` | Base de dados limpa e convertida para BRL |
-| `amazon_analysis_portfolio_brl.py` | Script Python com conversão para Real Brasileiro |
-| `relatorio_executivo_brl.pdf` | Relatório executivo em PDF (com valores em R$) |
-| `relatorio_executivo_brl.md` | Relatório executivo em Markdown (com valores em R$) |
-| `guia_power_bi_brl.md` | Guia passo a passo para Power BI (com valores em R$) |
-| `hipoteses_negocio.md` | Hipóteses de negócio testadas |
-| `insights_projeto.md` | Insights estratégicos consolidados |
-| `dashboard/` | Código do dashboard interativo (React) com valores em R$ |
+| `new_amazon.csv` | Base de dados limpa e convertida para BRL |
+| `etl_amazon_analysis.py` | Script Python com conversão para Real Brasileiro |
+| `Relatorio_Executivo_brl.pdf` | Relatório executivo em PDF (com valores em R$) |
+| `sales_amazon.pbix` | Dashboard interativo (React) com valores em R$ |
 
 ---
 
@@ -265,8 +248,8 @@ Todos os valores foram convertidos de Rupee Indiano (₹) para Real Brasileiro (
 
 Para dúvidas ou sugestões sobre este projeto, entre em contato através de:
 - **Email:** seu-email@exemplo.com
-- **LinkedIn:** [Seu Perfil](https://linkedin.com/in/seu-perfil)
-- **GitHub:** [Seu Perfil](https://github.com/seu-usuario)
+- **LinkedIn:** [Tiago Almeida](https://www.linkedin.com/in/tiago-l-almeida/)
+- **GitHub:** [Tiago Almeida](https://github.com/tiagodalmeida87)
 
 ---
 
