@@ -247,7 +247,7 @@ Todos os valores foram convertidos de Rupee Indiano (₹) para Real Brasileiro (
 ## Contato e Suporte
 
 Para dúvidas ou sugestões sobre este projeto, entre em contato através de:
-- **Email:** seu-email@exemplo.com
+- **Email:** tiago_almeida@outlook.com
 - **LinkedIn:** [Tiago Almeida](https://www.linkedin.com/in/tiago-l-almeida/)
 - **GitHub:** [Tiago Almeida](https://github.com/tiagodalmeida87)
 
