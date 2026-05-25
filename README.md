@@ -259,6 +259,6 @@ Este projeto é licenciado sob a Licença MIT - veja o arquivo LICENSE para deta
 
 ---
 
-**Projeto desenvolvido como portfólio para demonstrar habilidades em Data Analytics, Python, Power BI e Business Intelligence com suporte a múltiplas moedas.**
+**Projeto desenvolvido como portfólio, com base de dados disponível no [Kaggle](https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset), para demonstrar habilidades em Data Analytics, Python, Power BI e Business Intelligence com suporte a múltiplas moedas.**
 
 *Última atualização: Maio de 2026 (Versão 2.0 - Com conversão para Real Brasileiro)*
