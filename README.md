@@ -217,8 +217,8 @@ python etl_amazon_analysis.py
 
 ### Visualizar Resultados
 
-- **Dashboard Web:** Acesse http://localhost:3000
-- **Relatório Executivo:** Abra `Relatorio_Executivo_brl.pdf`
+- **Dashboard Web:** [Acesse aqui] (https://app.powerbi.com/view?r=eyJrIjoiODY2NjMxZGQtZjZiZi00ZWUxLWEzYWItYTRiMTBhZGY1ZjQyIiwidCI6ImY1Y2UwNmEwLWJiZWEtNDdlMC05MzhkLWUwNmY2YjUyNjVlNyJ9)
+- **Relatório Executivo:** [Abra `Relatorio_Executivo_brl.pdf`](https://app.powerbi.com/view?r=eyJrIjoiODY2NjMxZGQtZjZiZi00ZWUxLWEzYWItYTRiMTBhZGY1ZjQyIiwidCI6ImY1Y2UwNmEwLWJiZWEtNDdlMC05MzhkLWUwNmY2YjUyNjVlNyJ9)
 
 ---
 
