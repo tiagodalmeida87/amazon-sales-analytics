@@ -14,7 +14,7 @@ Palavras-chave: E-commerce Analytics, Data Analysis, Python, Power BI, Business 
 
 ## 2. Imagem da Capa
 
-![Dashboard Preview](https://via.placeholder.com/1200x400?text=Amazon+Analytics+Dashboard)
+![Dashboard Preview](https://github.com/tiagodalmeida87/amazon-sales-analytics/blob/main/assets/Dashboard_Amazon.jpg)
 
 *Dashboard interativo exibindo métricas de faturamento, ratings e distribuição de preços em Real Brasileiro*
 
